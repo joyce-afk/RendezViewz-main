@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "expo-router-test",
+    "slug": "expo-router-test",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": ["expo-router", "expo-localization"],
+    "scheme": "expo-router-test",
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {}
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/f5107616-50dd-4c6f-8cc4-37ba145596ff"
+    }
+  }
+}
